@@ -1,0 +1,24 @@
+{
+  "name": "npm-practice",
+  "version": "1.0.0",
+  "description": "Learning npm in Nodejs",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "bin": {
+    "ash-cli":"./cli.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node--watchindex.js",
+    "test": "echo \"Testing started\""
+  },
+  "dependencies": {
+    "lodash": "^4.18.1"
+  },
+  "devDependencies": {
+    "jest": "^30.5.2"
+  },
+  "keywords": []
+}
